@@ -6,7 +6,7 @@
     <nav class="NavigationLinks">
         <a href="/">Home</a>
         <a href="/survey">Survey</a>
-        <a href="https://www.thegundgallery.org/">Results</a>
+        <a href="/results">Results</a>
     </nav>
 </div>
 
@@ -21,6 +21,7 @@
         justify-content: space-between;
         position: sticky;
         top: 0px;
+        z-index: 2;
     }
 
     /* .NavBar * {
